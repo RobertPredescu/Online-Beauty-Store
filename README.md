@@ -10,7 +10,7 @@ The database was created using Microsoft SQL Server 2014, leveraging its robust 
 
 
 ## Features
-
+ 
 - **Employee Management:** Stores employee details including their department affiliation, allowing effective management of staff resources.
 - **Customer Database:** Manages customer information such as contact details, addresses, and purchase history for personalized services and targeted marketing.
 - **Sales Transactions:** Records sales transactions, linking clients with purchased products and the employee who processed the transaction for accurate reporting and analysis.
