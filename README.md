@@ -24,13 +24,13 @@ The database was created using Microsoft SQL Server 2014, leveraging its robust 
 
 The database comprises the following tables:
 
-- **Employee:** Stores employee information, including department affiliation and salary details. Operations: Add, Delete
-- **Department:** Contains details about different departments within the organization, including the manager responsible for each department. Operations: Add, Delete
-- **Client:** Stores customer data, including personal information and address details. Operations: Add, Delete
-- **Receipt:** Records sales transactions made by clients, linking clients, employees, and purchase details. Operations: Add, Delete
-- **Product:** Contains information about the products available in the store, including product name, price, and category. Operations: Add, Delete
-- **Category:** Stores the categories to which products belong, facilitating product organization and navigation. Operations: Add, Delete
-- **Order:** Resolves the many-to-many relationship between receipts and products, recording product quantities purchased in each transaction. Operations: Add, Delete
+- **Employee:** Stores employee information, including department affiliation and salary details. 
+- **Department:** Contains details about different departments within the organization, including the manager responsible for each department. 
+- **Client:** Stores customer data, including personal information and address details. 
+- **Receipt:** Records sales transactions made by clients, linking clients, employees, and purchase details. 
+- **Product:** Contains information about the products available in the store, including product name, price, and category. 
+- **Category:** Stores the categories to which products belong, facilitating product organization and navigation. 
+- **Order:** Resolves the many-to-many relationship between receipts and products, recording product quantities purchased in each transaction. 
 
 ## Implementation Details
 
@@ -45,7 +45,7 @@ The database comprises the following tables:
 
 1. **Login:** Authenticate with valid credentials to access the database interface.
 2. **Navigation:** Use the graphical interface to navigate through different tables and functionalities.
-3. **Data Modification:** Perform CRUD operations to add, update, or delete records as necessary.
+3. **Data Modification:** Perform CRUD operations to add, update, or delete records as necessary, depending on the table you want to modfiy.
 4. **Query Execution:** Execute predefined queries or create custom queries to retrieve specific information from the database.
 
 ## Future Enhancements
